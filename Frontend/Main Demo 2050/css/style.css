@@ -29,3 +29,9 @@
     line-height: 1.55;
     
 }
+
+.font-track{
+    font-weight: 700;
+    font-size: 21px;
+    font-family: inherit;
+}
