@@ -1,4 +1,6 @@
 
+
+
 .subtitle{
     font-size: 24px;
     line-height: 2;
@@ -74,22 +76,42 @@
     color: #666666;
   }  
   
-  .d-flex {
+
+
+#ce{
+    text-align: center;
     
-    display: flex !important;
+    
   }
-  .feature-icon {
-    font-size: 23px;
+#pr{
+    text-align: center;
+    padding-bottom:5px ;
+    margin-top: 30px;
+}
+
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:5px ;
+    margin-top: 30px;
+    
   }
-  .theme-color {
-    color: #6c63ff;
-  }
-  .fa, .fab, .fad, .fal, .far, .fas {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-  }
+
+#ancor{
+    margin-left: 85px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 100px;
+    font-weight: 800px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+#bord{
+   
+    box-shadow: 0px 3px 24px 3px rgba(7, 7, 7, 0.04);
+    
+}
+
+ 
