@@ -84,7 +84,7 @@
     
   }
 #pr{
-    text-align: center;
+    
     padding-bottom:5px ;
     margin-top: 30px;
 }
@@ -120,4 +120,17 @@
   padding: 20px;
 }
 
- 
+.single-blog-content {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.mb-1, .my-1 {
+  margin-bottom: .25rem !important;
+}
+
+
+/* .border-warning {
+  --bs-border-opacity: 1;
+  border-color: rgba(var(--bs-warning-rgb),var(--bs-border-opacity)) !important;
+} */
