@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link  rel = "stylesheet" href = "css/style.css" >
+    <link  rel = "stylesheet" href = "css/animate.css" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -60,14 +61,14 @@
                 <a class="banner-btn" href="">Full Story</a>
             </div>
             <div class ="col-lg-6">
-                <img class = "img-fluid" src=" images/slider-img.png"
+                <img class = "img-fluid wow slideInRight"  data-wow-duration="2s" data-wow-delay="1s" src=" images/slider-img.png"
             </div>
         </div>
     </div>
     <div class="container mt-5">
         <div class="row">
             <div class="col-lg-5">
-                <img class="img-fluid" src="images/about-img.png" >
+                <img class="img-fluid  wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s" src="images/about-img.png" >
             </div>
             <div class="col-lg-7 pt-5 ps-5">
                 <h1 class="subtitle">About Us</h1>
@@ -139,7 +140,7 @@
 
           </div>
           <div class="col-lg-6">
-            <img class="img-fluid" src="images/service-img.png" >
+            <img class="img-fluid wow slideInRight" data-wow-duration="2s" data-wow-delay="1s" src="images/service-img.png" >
         </div>
       </div>
     </div>
@@ -148,15 +149,15 @@
     <div class="container mt-5 " style="background-image: url(images/product-bg.png) ;">
       <div class="row ">
         <div class="col-lg-6 mt-5">
-          <img class="img-fluid" src="images/feature-img.png" >
+          <img class="img-fluid wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s" src="images/feature-img.png" >
       </div>
           
-          <div class="col-lg-6  mt-5">
+          <div class="col-lg-6  mt-5 ps-5 ">
               <h1 class="subtitle">Why Choose Us</h1>
               <h1 class="title">Never compromise</h1>
               <h1 class="title">with Quality</h1>
               <div class="row">
-                  <div class="col-lg-6">
+                  <div class="col-lg-6 ">
                     <ul class="feature-text mt-50">
                       <li class="d-flex">
                           <span class="feature-icon theme-color d-inline-block mr-20"><i class="fa-light fa-layer-group"></i></span>
@@ -364,5 +365,7 @@
     
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
   </body>
 </html>
